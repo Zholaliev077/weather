@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #1c7ee0;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+  margin: 10;
+}
+
+form {
+  background: #ff0202;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+
+.output {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.weather_info {
+  background-color: rgb(8, 255, 4);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px; 
+}
+
+.weather_info h1 {
+  font-size: 28px;
+  color: #0601ff;
+}
+
+.weather_info h2,
+.weather_info h3,
+.weather_info h4 {
+  font-size: 18px;
+  color: #a206f1;
+  margin-top: 10px;
+}
+
+.weather_info h4 {
+  font-size: 16px;
+}
+
+#map {
+  margin-top: 20px;
+  width: 80%;
+  height: 300px;
+  border-radius: 10px;
+}
