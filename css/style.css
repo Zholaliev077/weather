@@ -88,3 +88,20 @@ form button:hover {
   height: 300px;
   border-radius: 10px;
 }
+
+
+@media (max-width: 400px) {
+  form {
+    width: 95%;
+  }
+
+  .weather_info h1 {
+    font-size: 20px; /* Make the title smaller on very small screens */
+  }
+
+  .weather_info h2,
+  .weather_info h3,
+  .weather_info h4 {
+    font-size: 14px; /* Adjust other text sizes */
+  }
+}
